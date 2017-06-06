@@ -1,21 +1,30 @@
 @media only screen and (min-width: 1px) and (max-width: 499px){
 	body {
-		background-image: url(../img/maxresdefault.jpg);
+		background-image: url("../img/maxresdefault.jpg");
+		background-size: cover;
 		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
 	}
 }
 
-@media only screen and (min-width: 500px) and (max-width: 699px) {
+@media only screen and (min-width: 500px) and (max-width: 899px) {
 	body {
 		background-image: url(../img/Landscape.jpg);
+		background-size: cover;
 		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
 	}
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 900px) {
 	body {
 		background-image: url(../img/dawn.png);
+		background-size: cover;
 		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
 	}
 }
 
